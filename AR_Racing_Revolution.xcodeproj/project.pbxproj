@@ -12,6 +12,8 @@
 		AE4CECF0223DE187000F13B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4CECEE223DE187000F13B8 /* Main.storyboard */; };
 		AE4CECF2223DE189000F13B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4CECF1223DE189000F13B8 /* Assets.xcassets */; };
 		AE4CECF5223DE189000F13B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4CECF3223DE189000F13B8 /* LaunchScreen.storyboard */; };
+		AE4CED02223DF704000F13B8 /* CustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CED01223DF704000F13B8 /* CustomizeViewController.swift */; };
+		AE4CED04223DF718000F13B8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CED03223DF718000F13B8 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AE4CECF1223DE189000F13B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4CECF4223DE189000F13B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE4CECF6223DE189000F13B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4CED01223DF704000F13B8 /* CustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeViewController.swift; sourceTree = "<group>"; };
+		AE4CED03223DF718000F13B8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				AE4CECEC223DE187000F13B8 /* ViewController.swift */,
+				AE4CED01223DF704000F13B8 /* CustomizeViewController.swift */,
+				AE4CED03223DF718000F13B8 /* SettingsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 			files = (
 				AE4CECED223DE187000F13B8 /* ViewController.swift in Sources */,
 				AE4CECEB223DE187000F13B8 /* AppDelegate.swift in Sources */,
+				AE4CED02223DF704000F13B8 /* CustomizeViewController.swift in Sources */,
+				AE4CED04223DF718000F13B8 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
