@@ -14,6 +14,8 @@
 		AE4CECF5223DE189000F13B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4CECF3223DE189000F13B8 /* LaunchScreen.storyboard */; };
 		AE4CED02223DF704000F13B8 /* CustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CED01223DF704000F13B8 /* CustomizeViewController.swift */; };
 		AE4CED04223DF718000F13B8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CED03223DF718000F13B8 /* SettingsViewController.swift */; };
+		AEA6AA56223F21FF00F992CA /* logout.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA6AA55223F21FF00F992CA /* logout.jpeg */; };
+		AEA6AA58223F246C00F992CA /* facebookconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA6AA57223F246C00F992CA /* facebookconnect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AE4CECF6223DE189000F13B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE4CED01223DF704000F13B8 /* CustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeViewController.swift; sourceTree = "<group>"; };
 		AE4CED03223DF718000F13B8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AEA6AA55223F21FF00F992CA /* logout.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logout.jpeg; sourceTree = "<group>"; };
+		AEA6AA57223F246C00F992CA /* facebookconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookconnect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		AE4CECFD223DE500000F13B8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AEA6AA57223F246C00F992CA /* facebookconnect.png */,
+				AEA6AA55223F21FF00F992CA /* logout.jpeg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -169,8 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE4CECF5223DE189000F13B8 /* LaunchScreen.storyboard in Resources */,
+				AEA6AA56223F21FF00F992CA /* logout.jpeg in Resources */,
 				AE4CECF2223DE189000F13B8 /* Assets.xcassets in Resources */,
 				AE4CECF0223DE187000F13B8 /* Main.storyboard in Resources */,
+				AEA6AA58223F246C00F992CA /* facebookconnect.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
