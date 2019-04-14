@@ -18,6 +18,7 @@ class CustomizeViewController: ViewController {
     @IBOutlet var imCar : UIImageView!
     @IBOutlet var imTire : UIImageView!
     
+        
     //Changes tire size when seg changes
     func updateTire(){
         
@@ -60,7 +61,12 @@ class CustomizeViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        sgTire.setBackgroundImage(UIImage(named: "menubutton"), for: .normal, barMetrics: .default)
+        sgCar.setBackgroundImage(UIImage(named: "menubutton"), for: .normal, barMetrics: .default)
+        
+        //sgTire.setImage(UIImage(named: "menubutton")?.withRenderingMode(.alwaysOriginal), forSegmentAt: 0)
+        //sgTire.setImage(UIImage(named: "menubutton")?.withRenderingMode(.alwaysOriginal), forSegmentAt: 1)
+        //sgTire.setImage(UIImage(named: "menubutton")?.withRenderingMode(.alwaysOriginal), forSegmentAt: 2)
     }
     
 
