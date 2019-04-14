@@ -12,6 +12,9 @@
 		9D6F7BA42263B7BB002C6C5E /* loadingscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6F7BA32263B7BB002C6C5E /* loadingscreen.png */; };
 		9D7442B422638ED70021BFC1 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7442B322638ED70021BFC1 /* AboutUsViewController.swift */; };
 		9D7442B822639A300021BFC1 /* viewbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7442B722639A300021BFC1 /* viewbackground.png */; };
+		9DA2267E2263C5CE00BFBA58 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA2267D2263C5CE00BFBA58 /* AVFoundation.framework */; };
+		9DA226802263C62900BFBA58 /* ParadiseWarfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2267F2263C62900BFBA58 /* ParadiseWarfare.mp3 */; };
+		9DA226822263C9CA00BFBA58 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA226812263C9CA00BFBA58 /* Music.swift */; };
 		9DA822822263886C00CFCF39 /* greencar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227B2263886C00CFCF39 /* greencar.png */; };
 		9DA822832263886C00CFCF39 /* yellowcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227C2263886C00CFCF39 /* yellowcar.png */; };
 		9DA822842263886C00CFCF39 /* bigtire.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227D2263886C00CFCF39 /* bigtire.png */; };
@@ -46,6 +49,9 @@
 		9D6F7BA32263B7BB002C6C5E /* loadingscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingscreen.png; sourceTree = "<group>"; };
 		9D7442B322638ED70021BFC1 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		9D7442B722639A300021BFC1 /* viewbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewbackground.png; sourceTree = "<group>"; };
+		9DA2267D2263C5CE00BFBA58 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9DA2267F2263C62900BFBA58 /* ParadiseWarfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ParadiseWarfare.mp3; sourceTree = "<group>"; };
+		9DA226812263C9CA00BFBA58 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		9DA8227B2263886C00CFCF39 /* greencar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greencar.png; sourceTree = "<group>"; };
 		9DA8227C2263886C00CFCF39 /* yellowcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowcar.png; sourceTree = "<group>"; };
 		9DA8227D2263886C00CFCF39 /* bigtire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigtire.png; sourceTree = "<group>"; };
@@ -82,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA2267E2263C5CE00BFBA58 /* AVFoundation.framework in Frameworks */,
 				AE24D4872262697600063BB0 /* WebKit.framework in Frameworks */,
 				AE24D4842262697000063BB0 /* libsqlite3.0.tbd in Frameworks */,
 				AE24D4852262697000063BB0 /* libsqlite3.tbd in Frameworks */,
@@ -99,6 +106,7 @@
 				AE24D47D2262682700063BB0 /* UserData.swift */,
 				AE24D48E226275E000063BB0 /* UniqueCell.swift */,
 				AEA9697822639D4700A1651E /* Wallpaper.swift */,
+				9DA226812263C9CA00BFBA58 /* Music.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -106,6 +114,7 @@
 		AE24D47F2262696900063BB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DA2267D2263C5CE00BFBA58 /* AVFoundation.framework */,
 				AE24D4862262697600063BB0 /* WebKit.framework */,
 				AE24D4822262697000063BB0 /* libsqlite3.0.tbd */,
 				AE24D4832262697000063BB0 /* libsqlite3.tbd */,
@@ -188,6 +197,7 @@
 		AE4CECFE223DE505000F13B8 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				9DA2267F2263C62900BFBA58 /* ParadiseWarfare.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -236,6 +246,11 @@
 				TargetAttributes = {
 					AE4CECE6223DE187000F13B8 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -266,6 +281,7 @@
 				9DA822842263886C00CFCF39 /* bigtire.png in Resources */,
 				9D6F7BA42263B7BB002C6C5E /* loadingscreen.png in Resources */,
 				AE4CECF5223DE189000F13B8 /* LaunchScreen.storyboard in Resources */,
+				9DA226802263C62900BFBA58 /* ParadiseWarfare.mp3 in Resources */,
 				AE24D494226279C900063BB0 /* WoodenBackground.png in Resources */,
 				9DA822862263886C00CFCF39 /* smalltire.png in Resources */,
 				9D17B2DA2263B42900A2623B /* menubutton.png in Resources */,
@@ -297,6 +313,7 @@
 				AE4CED02223DF704000F13B8 /* CustomizeViewController.swift in Sources */,
 				AE24D47E2262682700063BB0 /* UserData.swift in Sources */,
 				AE4CED04223DF718000F13B8 /* SettingsViewController.swift in Sources */,
+				9DA226822263C9CA00BFBA58 /* Music.swift in Sources */,
 				AE24D48D2262755E00063BB0 /* AllPlayersViewController.swift in Sources */,
 				AE24D48F226275E000063BB0 /* UniqueCell.swift in Sources */,
 			);

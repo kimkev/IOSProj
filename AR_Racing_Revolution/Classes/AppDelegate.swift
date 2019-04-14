@@ -8,6 +8,7 @@
 
 import UIKit
 import SQLite3
+import AVFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -38,6 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         checkAndCreateDatabase()
         readDataFromDatabase()
         
+        MusicHelper.sharedHelper.playBackgroundMusic()
         
         return true
     }

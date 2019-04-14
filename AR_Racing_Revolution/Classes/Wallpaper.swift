@@ -21,7 +21,7 @@ extension UIViewController {
         
         if let image = UIGraphicsGetImageFromCurrentImageContext(){
             UIGraphicsEndImageContext()
-            self.view.backgroundColor = UIColor(patternImage: image)
+            //self.view.backgroundColor = UIColor(patternImage: image)
         }
     }
     
@@ -32,7 +32,7 @@ extension UIViewController {
         
         if let image = UIGraphicsGetImageFromCurrentImageContext(){
             UIGraphicsEndImageContext()
-            self.view.backgroundColor = UIColor(patternImage: image)
+            //self.view.backgroundColor = UIColor(patternImage: image)
         }
     }
 
