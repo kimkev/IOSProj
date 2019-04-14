@@ -5,6 +5,7 @@
 //  Created by Trevor Rubie on 2019-04-14.
 //  Copyright © 2019 Xcode User. All rights reserved.
 //
+// By: Trevor Rubie
 
 import UIKit
 import WebKit

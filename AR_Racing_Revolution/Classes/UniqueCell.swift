@@ -33,7 +33,7 @@ class UniqueCell: UITableViewCell {
     
     override func layoutSubviews() {
         nameLabel.frame = CGRect(x: 50, y: 5, width: 460, height: 30)
-        highscoreLabel.frame = CGRect(x: 100, y: 40, width: 460, height: 30)
+        highscoreLabel.frame = CGRect(x: 200, y: 40, width: 460, height: 30)
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -22,6 +22,7 @@
 		9DA822862263886C00CFCF39 /* smalltire.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227F2263886C00CFCF39 /* smalltire.png */; };
 		9DA822872263886C00CFCF39 /* medtire.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA822802263886C00CFCF39 /* medtire.png */; };
 		9DA822882263886C00CFCF39 /* redcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA822812263886C00CFCF39 /* redcar.png */; };
+		AE1E6A5B2263D413005C7BD5 /* LeaderBoardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E6A5A2263D413005C7BD5 /* LeaderBoardsViewController.swift */; };
 		AE24D47E2262682700063BB0 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE24D47D2262682700063BB0 /* UserData.swift */; };
 		AE24D4812262696A00063BB0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE24D4802262696A00063BB0 /* QuartzCore.framework */; };
 		AE24D4842262697000063BB0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE24D4822262697000063BB0 /* libsqlite3.0.tbd */; };
@@ -59,6 +60,7 @@
 		9DA8227F2263886C00CFCF39 /* smalltire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smalltire.png; sourceTree = "<group>"; };
 		9DA822802263886C00CFCF39 /* medtire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medtire.png; sourceTree = "<group>"; };
 		9DA822812263886C00CFCF39 /* redcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcar.png; sourceTree = "<group>"; };
+		AE1E6A5A2263D413005C7BD5 /* LeaderBoardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardsViewController.swift; sourceTree = "<group>"; };
 		AE24D47D2262682700063BB0 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		AE24D4802262696A00063BB0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AE24D4822262697000063BB0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
@@ -208,8 +210,9 @@
 				AE4CECEC223DE187000F13B8 /* ViewController.swift */,
 				AE4CED01223DF704000F13B8 /* CustomizeViewController.swift */,
 				AE4CED03223DF718000F13B8 /* SettingsViewController.swift */,
-				AE24D48C2262755E00063BB0 /* AllPlayersViewController.swift */,
 				9D7442B322638ED70021BFC1 /* AboutUsViewController.swift */,
+				AE24D48C2262755E00063BB0 /* AllPlayersViewController.swift */,
+				AE1E6A5A2263D413005C7BD5 /* LeaderBoardsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				AE4CED02223DF704000F13B8 /* CustomizeViewController.swift in Sources */,
 				AE24D47E2262682700063BB0 /* UserData.swift in Sources */,
 				AE4CED04223DF718000F13B8 /* SettingsViewController.swift in Sources */,
+				AE1E6A5B2263D413005C7BD5 /* LeaderBoardsViewController.swift in Sources */,
 				9DA226822263C9CA00BFBA58 /* Music.swift in Sources */,
 				AE24D48D2262755E00063BB0 /* AllPlayersViewController.swift in Sources */,
 				AE24D48F226275E000063BB0 /* UniqueCell.swift in Sources */,

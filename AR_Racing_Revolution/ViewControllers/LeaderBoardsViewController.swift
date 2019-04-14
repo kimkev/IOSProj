@@ -1,20 +1,18 @@
 //
-//  AllPlayersViewController.swift
+//  LeaderBoardsViewController.swift
 //  AR_Racing_Revolution
 //
-//  Created by Xcode User on 2019-04-13.
+//  Created by Xcode User on 2019-04-14.
 //  Copyright © 2019 Xcode User. All rights reserved.
 //
 // By: Kevin Kim
 
 import UIKit
 
-class AllPlayersViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class LeaderBoardsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     // connect to table outlet
     @IBOutlet var tableView : UITableView!
-    // background image for table
-    let img = UIImage(named: "WoodenBackground")!
     
     // call the main Delegate for retrieving data
     let mainDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -33,18 +31,13 @@ class AllPlayersViewController: UIViewController, UITableViewDataSource, UITable
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         
-        let imageView = UIImageView(image: img)
-        imageView.alpha = 0.2
-        
         let tableCell = tableView.dequeueReusableCell(withIdentifier: "cell") as? UniqueCell ?? UniqueCell(style: .default, reuseIdentifier:"cell")
         
         let rowNum = indexPath.row
         tableCell.nameLabel.text = mainDelegate.people[rowNum].name
-        tableCell.highscoreLabel.text = mainDelegate.people[rowNum].email
-        tableCell.backgroundView = UIView()
-        tableCell.backgroundView!.addSubview(imageView)
+        tableCell.highscoreLabel.text = String(mainDelegate.people[rowNum].highscore)
         
-        
+         
         return tableCell
     }
     
