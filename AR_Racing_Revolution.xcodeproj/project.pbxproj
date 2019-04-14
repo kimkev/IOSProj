@@ -23,6 +23,7 @@
 		9DA822872263886C00CFCF39 /* medtire.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA822802263886C00CFCF39 /* medtire.png */; };
 		9DA822882263886C00CFCF39 /* redcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA822812263886C00CFCF39 /* redcar.png */; };
 		AE1E6A5B2263D413005C7BD5 /* LeaderBoardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E6A5A2263D413005C7BD5 /* LeaderBoardsViewController.swift */; };
+		AE1E6A5D2263D6C5005C7BD5 /* Project.db in Resources */ = {isa = PBXBuildFile; fileRef = AE1E6A5C2263D6C5005C7BD5 /* Project.db */; };
 		AE24D47E2262682700063BB0 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE24D47D2262682700063BB0 /* UserData.swift */; };
 		AE24D4812262696A00063BB0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE24D4802262696A00063BB0 /* QuartzCore.framework */; };
 		AE24D4842262697000063BB0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE24D4822262697000063BB0 /* libsqlite3.0.tbd */; };
@@ -61,6 +62,7 @@
 		9DA822802263886C00CFCF39 /* medtire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medtire.png; sourceTree = "<group>"; };
 		9DA822812263886C00CFCF39 /* redcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcar.png; sourceTree = "<group>"; };
 		AE1E6A5A2263D413005C7BD5 /* LeaderBoardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardsViewController.swift; sourceTree = "<group>"; };
+		AE1E6A5C2263D6C5005C7BD5 /* Project.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Project.db; sourceTree = "<group>"; };
 		AE24D47D2262682700063BB0 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		AE24D4802262696A00063BB0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AE24D4822262697000063BB0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
@@ -68,7 +70,6 @@
 		AE24D4862262697600063BB0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AE24D48C2262755E00063BB0 /* AllPlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPlayersViewController.swift; sourceTree = "<group>"; };
 		AE24D48E226275E000063BB0 /* UniqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueCell.swift; sourceTree = "<group>"; };
-		AE24D4902262785100063BB0 /* Project.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Project.db; sourceTree = "<group>"; };
 		AE24D493226279C900063BB0 /* WoodenBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WoodenBackground.png; sourceTree = "<group>"; };
 		AE4CECE7223DE187000F13B8 /* AR_Racing_Revolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_Racing_Revolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4CECEA223DE187000F13B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,7 +129,7 @@
 		AE24D48822626C2C00063BB0 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				AE24D4902262785100063BB0 /* Project.db */,
+				AE1E6A5C2263D6C5005C7BD5 /* Project.db */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -285,6 +286,7 @@
 				9D6F7BA42263B7BB002C6C5E /* loadingscreen.png in Resources */,
 				AE4CECF5223DE189000F13B8 /* LaunchScreen.storyboard in Resources */,
 				9DA226802263C62900BFBA58 /* ParadiseWarfare.mp3 in Resources */,
+				AE1E6A5D2263D6C5005C7BD5 /* Project.db in Resources */,
 				AE24D494226279C900063BB0 /* WoodenBackground.png in Resources */,
 				9DA822862263886C00CFCF39 /* smalltire.png in Resources */,
 				9D17B2DA2263B42900A2623B /* menubutton.png in Resources */,
