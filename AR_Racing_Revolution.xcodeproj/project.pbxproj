@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DA822822263886C00CFCF39 /* greencar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227B2263886C00CFCF39 /* greencar.png */; };
+		9DA822832263886C00CFCF39 /* yellowcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227C2263886C00CFCF39 /* yellowcar.png */; };
+		9DA822842263886C00CFCF39 /* bigtire.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227D2263886C00CFCF39 /* bigtire.png */; };
+		9DA822852263886C00CFCF39 /* bluecar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227E2263886C00CFCF39 /* bluecar.png */; };
+		9DA822862263886C00CFCF39 /* smalltire.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227F2263886C00CFCF39 /* smalltire.png */; };
+		9DA822872263886C00CFCF39 /* medtire.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA822802263886C00CFCF39 /* medtire.png */; };
+		9DA822882263886C00CFCF39 /* redcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA822812263886C00CFCF39 /* redcar.png */; };
 		AE24D47E2262682700063BB0 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE24D47D2262682700063BB0 /* UserData.swift */; };
 		AE24D4812262696A00063BB0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE24D4802262696A00063BB0 /* QuartzCore.framework */; };
 		AE24D4842262697000063BB0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE24D4822262697000063BB0 /* libsqlite3.0.tbd */; };
@@ -27,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9DA8227B2263886C00CFCF39 /* greencar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greencar.png; sourceTree = "<group>"; };
+		9DA8227C2263886C00CFCF39 /* yellowcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowcar.png; sourceTree = "<group>"; };
+		9DA8227D2263886C00CFCF39 /* bigtire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigtire.png; sourceTree = "<group>"; };
+		9DA8227E2263886C00CFCF39 /* bluecar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluecar.png; sourceTree = "<group>"; };
+		9DA8227F2263886C00CFCF39 /* smalltire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smalltire.png; sourceTree = "<group>"; };
+		9DA822802263886C00CFCF39 /* medtire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medtire.png; sourceTree = "<group>"; };
+		9DA822812263886C00CFCF39 /* redcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcar.png; sourceTree = "<group>"; };
 		AE24D47D2262682700063BB0 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		AE24D4802262696A00063BB0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AE24D4822262697000063BB0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
@@ -137,6 +151,13 @@
 		AE4CECFD223DE500000F13B8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9DA8227D2263886C00CFCF39 /* bigtire.png */,
+				9DA8227E2263886C00CFCF39 /* bluecar.png */,
+				9DA8227B2263886C00CFCF39 /* greencar.png */,
+				9DA822802263886C00CFCF39 /* medtire.png */,
+				9DA822812263886C00CFCF39 /* redcar.png */,
+				9DA8227F2263886C00CFCF39 /* smalltire.png */,
+				9DA8227C2263886C00CFCF39 /* yellowcar.png */,
 				AE24D493226279C900063BB0 /* WoodenBackground.png */,
 				AEA6AA57223F246C00F992CA /* facebookconnect.png */,
 				AEA6AA55223F21FF00F992CA /* logout.jpeg */,
@@ -220,9 +241,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA822872263886C00CFCF39 /* medtire.png in Resources */,
+				9DA822842263886C00CFCF39 /* bigtire.png in Resources */,
 				AE4CECF5223DE189000F13B8 /* LaunchScreen.storyboard in Resources */,
 				AE24D494226279C900063BB0 /* WoodenBackground.png in Resources */,
+				9DA822862263886C00CFCF39 /* smalltire.png in Resources */,
+				9DA822832263886C00CFCF39 /* yellowcar.png in Resources */,
+				9DA822852263886C00CFCF39 /* bluecar.png in Resources */,
+				9DA822882263886C00CFCF39 /* redcar.png in Resources */,
 				AEA6AA56223F21FF00F992CA /* logout.jpeg in Resources */,
+				9DA822822263886C00CFCF39 /* greencar.png in Resources */,
 				AE4CECF2223DE189000F13B8 /* Assets.xcassets in Resources */,
 				AE4CECF0223DE187000F13B8 /* Main.storyboard in Resources */,
 				AEA6AA58223F246C00F992CA /* facebookconnect.png in Resources */,
