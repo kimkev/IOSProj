@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9D7442B422638ED70021BFC1 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7442B322638ED70021BFC1 /* AboutUsViewController.swift */; };
-		9D7442B6226399360021BFC1 /* titlebackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7442B5226399360021BFC1 /* titlebackground.png */; };
 		9D7442B822639A300021BFC1 /* viewbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7442B722639A300021BFC1 /* viewbackground.png */; };
-		9D7442BC22639F0D0021BFC1 /* menubutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7442BB22639F0D0021BFC1 /* menubutton.png */; };
+		9DA7FBE42263ADD40095622F /* titlebackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7FBE32263ADD40095622F /* titlebackground.png */; };
+		9DA7FBE62263ADF60095622F /* menubutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7FBE52263ADF60095622F /* menubutton.png */; };
 		9DA822822263886C00CFCF39 /* greencar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227B2263886C00CFCF39 /* greencar.png */; };
 		9DA822832263886C00CFCF39 /* yellowcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227C2263886C00CFCF39 /* yellowcar.png */; };
 		9DA822842263886C00CFCF39 /* bigtire.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8227D2263886C00CFCF39 /* bigtire.png */; };
@@ -41,9 +41,9 @@
 
 /* Begin PBXFileReference section */
 		9D7442B322638ED70021BFC1 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
-		9D7442B5226399360021BFC1 /* titlebackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlebackground.png; sourceTree = "<group>"; };
 		9D7442B722639A300021BFC1 /* viewbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewbackground.png; sourceTree = "<group>"; };
-		9D7442BB22639F0D0021BFC1 /* menubutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menubutton.png; path = "../../../../Semester 5/iOS/menubutton.png"; sourceTree = "<group>"; };
+		9DA7FBE32263ADD40095622F /* titlebackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titlebackground.png; path = "../../../../Semester 5/iOS/titlebackground.png"; sourceTree = "<group>"; };
+		9DA7FBE52263ADF60095622F /* menubutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menubutton.png; path = "../../../../Semester 5/iOS/menubutton.png"; sourceTree = "<group>"; };
 		9DA8227B2263886C00CFCF39 /* greencar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greencar.png; sourceTree = "<group>"; };
 		9DA8227C2263886C00CFCF39 /* yellowcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowcar.png; sourceTree = "<group>"; };
 		9DA8227D2263886C00CFCF39 /* bigtire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigtire.png; sourceTree = "<group>"; };
@@ -164,9 +164,9 @@
 		AE4CECFD223DE500000F13B8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				9D7442BB22639F0D0021BFC1 /* menubutton.png */,
+				9DA7FBE52263ADF60095622F /* menubutton.png */,
+				9DA7FBE32263ADD40095622F /* titlebackground.png */,
 				9D7442B722639A300021BFC1 /* viewbackground.png */,
-				9D7442B5226399360021BFC1 /* titlebackground.png */,
 				AEA9697E2263A2B100A1651E /* lane.png */,
 				9DA8227D2263886C00CFCF39 /* bigtire.png */,
 				9DA8227E2263886C00CFCF39 /* bluecar.png */,
@@ -261,15 +261,15 @@
 			files = (
 				9DA822872263886C00CFCF39 /* medtire.png in Resources */,
 				9DA822842263886C00CFCF39 /* bigtire.png in Resources */,
-				9D7442BC22639F0D0021BFC1 /* menubutton.png in Resources */,
 				AE4CECF5223DE189000F13B8 /* LaunchScreen.storyboard in Resources */,
 				AE24D494226279C900063BB0 /* WoodenBackground.png in Resources */,
 				9DA822862263886C00CFCF39 /* smalltire.png in Resources */,
+				9DA7FBE62263ADF60095622F /* menubutton.png in Resources */,
 				9DA822832263886C00CFCF39 /* yellowcar.png in Resources */,
 				9DA822852263886C00CFCF39 /* bluecar.png in Resources */,
 				9DA822882263886C00CFCF39 /* redcar.png in Resources */,
-				9D7442B6226399360021BFC1 /* titlebackground.png in Resources */,
 				AEA6AA56223F21FF00F992CA /* logout.jpeg in Resources */,
+				9DA7FBE42263ADD40095622F /* titlebackground.png in Resources */,
 				9DA822822263886C00CFCF39 /* greencar.png in Resources */,
 				AEA9697F2263A2B100A1651E /* lane.png in Resources */,
 				AE4CECF2223DE189000F13B8 /* Assets.xcassets in Resources */,
