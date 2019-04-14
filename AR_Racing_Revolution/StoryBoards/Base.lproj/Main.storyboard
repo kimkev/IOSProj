@@ -452,11 +452,11 @@
                                 </connections>
                             </segmentedControl>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greencar.png" translatesAutoresizingMaskIntoConstraints="NO" id="ovc-au-ps8">
-                                <rect key="frame" x="47" y="409" width="277" height="141"/>
+                                <rect key="frame" x="31" y="409" width="312" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smalltire.png" translatesAutoresizingMaskIntoConstraints="NO" id="wlF-wq-ZbX">
-                                <rect key="frame" x="47" y="409" width="277" height="141"/>
+                                <rect key="frame" x="31" y="409" width="312" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
