@@ -24,6 +24,9 @@
 		9DA822882263886C00CFCF39 /* redcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA822812263886C00CFCF39 /* redcar.png */; };
 		AE1E6A5B2263D413005C7BD5 /* LeaderBoardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E6A5A2263D413005C7BD5 /* LeaderBoardsViewController.swift */; };
 		AE1E6A5D2263D6C5005C7BD5 /* Project.db in Resources */ = {isa = PBXBuildFile; fileRef = AE1E6A5C2263D6C5005C7BD5 /* Project.db */; };
+		AE1E6A5F2263E688005C7BD5 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E6A5E2263E688005C7BD5 /* EmailViewController.swift */; };
+		AE1E6A612263E9E5005C7BD5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1E6A602263E9E5005C7BD5 /* MessageUI.framework */; };
+		AE1E6A632263E9FF005C7BD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1E6A622263E9FF005C7BD5 /* Foundation.framework */; };
 		AE24D47E2262682700063BB0 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE24D47D2262682700063BB0 /* UserData.swift */; };
 		AE24D4812262696A00063BB0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE24D4802262696A00063BB0 /* QuartzCore.framework */; };
 		AE24D4842262697000063BB0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE24D4822262697000063BB0 /* libsqlite3.0.tbd */; };
@@ -63,6 +66,9 @@
 		9DA822812263886C00CFCF39 /* redcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcar.png; sourceTree = "<group>"; };
 		AE1E6A5A2263D413005C7BD5 /* LeaderBoardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardsViewController.swift; sourceTree = "<group>"; };
 		AE1E6A5C2263D6C5005C7BD5 /* Project.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Project.db; sourceTree = "<group>"; };
+		AE1E6A5E2263E688005C7BD5 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		AE1E6A602263E9E5005C7BD5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AE1E6A622263E9FF005C7BD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE24D47D2262682700063BB0 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		AE24D4802262696A00063BB0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AE24D4822262697000063BB0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
@@ -91,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1E6A632263E9FF005C7BD5 /* Foundation.framework in Frameworks */,
+				AE1E6A612263E9E5005C7BD5 /* MessageUI.framework in Frameworks */,
 				9DA2267E2263C5CE00BFBA58 /* AVFoundation.framework in Frameworks */,
 				AE24D4872262697600063BB0 /* WebKit.framework in Frameworks */,
 				AE24D4842262697000063BB0 /* libsqlite3.0.tbd in Frameworks */,
@@ -117,6 +125,8 @@
 		AE24D47F2262696900063BB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE1E6A622263E9FF005C7BD5 /* Foundation.framework */,
+				AE1E6A602263E9E5005C7BD5 /* MessageUI.framework */,
 				9DA2267D2263C5CE00BFBA58 /* AVFoundation.framework */,
 				AE24D4862262697600063BB0 /* WebKit.framework */,
 				AE24D4822262697000063BB0 /* libsqlite3.0.tbd */,
@@ -214,6 +224,7 @@
 				9D7442B322638ED70021BFC1 /* AboutUsViewController.swift */,
 				AE24D48C2262755E00063BB0 /* AllPlayersViewController.swift */,
 				AE1E6A5A2263D413005C7BD5 /* LeaderBoardsViewController.swift */,
+				AE1E6A5E2263E688005C7BD5 /* EmailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -318,6 +329,7 @@
 				AE4CED02223DF704000F13B8 /* CustomizeViewController.swift in Sources */,
 				AE24D47E2262682700063BB0 /* UserData.swift in Sources */,
 				AE4CED04223DF718000F13B8 /* SettingsViewController.swift in Sources */,
+				AE1E6A5F2263E688005C7BD5 /* EmailViewController.swift in Sources */,
 				AE1E6A5B2263D413005C7BD5 /* LeaderBoardsViewController.swift in Sources */,
 				9DA226822263C9CA00BFBA58 /* Music.swift in Sources */,
 				AE24D48D2262755E00063BB0 /* AllPlayersViewController.swift in Sources */,

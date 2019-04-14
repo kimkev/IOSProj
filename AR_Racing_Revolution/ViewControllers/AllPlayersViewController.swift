@@ -56,6 +56,22 @@ class AllPlayersViewController: UIViewController, UITableViewDataSource, UITable
         mainDelegate.readDataFromDatabase()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let rowNum = indexPath.row
+        
+        let emailViewController = storyboard?.instantiateViewController(withIdentifier: "EmailView") as? EmailViewController
+        emailViewController?.email = mainDelegate.people[rowNum].email
+        
+        self.present(emailViewController!, animated: true)
+        
+    }
+    
+    
+    @IBAction func unwindToAllPlayersVC(sender:UIStoryboardSegue){
+        
+    }
+    
 
     /*
     // MARK: - Navigation
