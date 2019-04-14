@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var databasePath : String?
     // Array for keeping track of the data from the database
     var people : [UserData] = []
-
+    
     
     // When the application launches, will make connection to the database to pull the necessary data
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
