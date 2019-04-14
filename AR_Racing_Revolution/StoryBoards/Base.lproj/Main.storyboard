@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -63,9 +63,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="IAp-lj-ge7" kind="popoverPresentation" popoverAnchorView="iP1-rJ-PP8" id="bDr-zu-3yb">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="IAp-lj-ge7" kind="presentation" id="4bk-N4-lkf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xcv-Hy-NbI">
@@ -125,11 +123,7 @@
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="vzg-dt-4Pr">
                                             <color key="tintColor" red="0.1254383916" green="0.89147195710000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
-<<<<<<< HEAD
                                                 <segue destination="bUB-Bu-FGh" kind="unwind" unwindAction="unwindToHomeVCWithSender:" id="HMn-d9-pe5"/>
-=======
-                                                <segue destination="bUB-Bu-FGh" kind="unwind" unwindAction="unwindToHomeVCWithSender:" id="aBF-hf-dph"/>
->>>>>>> 08fcdbbebb5c9555f710dc1551b210c399ec7fda
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -257,14 +251,9 @@
                                 <items>
                                     <navigationItem title="Leaderboards" id="yD0-UO-IDP">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="l5H-ct-Z0V">
-<<<<<<< HEAD
                                             <color key="tintColor" red="0.1254383916" green="0.89147195710000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <segue destination="r0s-b9-WMy" kind="unwind" unwindAction="unwindToHomeVCWithSender:" id="WtB-F6-qxb"/>
-=======
-                                            <connections>
-                                                <segue destination="nZh-5J-6w7" kind="unwind" unwindAction="unwindToHomeVCWithSender:" id="Y7F-ER-Rk2"/>
->>>>>>> 08fcdbbebb5c9555f710dc1551b210c399ec7fda
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -285,11 +274,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IvT-uc-hQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-<<<<<<< HEAD
                 <exit id="r0s-b9-WMy" userLabel="Exit" sceneMemberID="exit"/>
-=======
-                <exit id="nZh-5J-6w7" userLabel="Exit" sceneMemberID="exit"/>
->>>>>>> 08fcdbbebb5c9555f710dc1551b210c399ec7fda
             </objects>
             <point key="canvasLocation" x="280.80000000000001" y="715.59220389805103"/>
         </scene>
@@ -368,14 +353,9 @@
                                 <items>
                                     <navigationItem title="Play" id="Cp1-me-heU">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="eau-qe-z3M">
-<<<<<<< HEAD
                                             <color key="tintColor" red="0.1254383916" green="0.89147195710000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <segue destination="ztG-7O-Wiu" kind="unwind" unwindAction="unwindToHomeVCWithSender:" id="Sgs-KY-pcq"/>
-=======
-                                            <connections>
-                                                <segue destination="SZ9-h4-3ho" kind="unwind" unwindAction="unwindToHomeVCWithSender:" id="2fm-Va-n7k"/>
->>>>>>> 08fcdbbebb5c9555f710dc1551b210c399ec7fda
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -387,11 +367,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xV0-Fg-rkX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-<<<<<<< HEAD
                 <exit id="ztG-7O-Wiu" userLabel="Exit" sceneMemberID="exit"/>
-=======
-                <exit id="SZ9-h4-3ho" userLabel="Exit" sceneMemberID="exit"/>
->>>>>>> 08fcdbbebb5c9555f710dc1551b210c399ec7fda
             </objects>
             <point key="canvasLocation" x="-572" y="-54"/>
         </scene>
@@ -523,14 +499,9 @@
                                 <items>
                                     <navigationItem title="About Us" id="3sC-pl-Kkm">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="yT6-hD-l0A">
-<<<<<<< HEAD
                                             <color key="tintColor" red="0.1254383916" green="0.89147195710000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <segue destination="UsG-bO-r1t" kind="unwind" unwindAction="unwindToHomeVCWithSender:" id="9jh-sT-3Td"/>
-=======
-                                            <connections>
-                                                <segue destination="gdc-kC-b5j" kind="unwind" unwindAction="unwindToHomeVCWithSender:" id="kSv-C7-pnl"/>
->>>>>>> 08fcdbbebb5c9555f710dc1551b210c399ec7fda
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -560,11 +531,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e0g-AP-Edb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-<<<<<<< HEAD
                 <exit id="UsG-bO-r1t" userLabel="Exit" sceneMemberID="exit"/>
-=======
-                <exit id="gdc-kC-b5j" userLabel="Exit" sceneMemberID="exit"/>
->>>>>>> 08fcdbbebb5c9555f710dc1551b210c399ec7fda
             </objects>
             <point key="canvasLocation" x="1128.8" y="715.59220389805103"/>
         </scene>
