@@ -35,6 +35,9 @@
 		AE4CED04223DF718000F13B8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CED03223DF718000F13B8 /* SettingsViewController.swift */; };
 		AEA6AA56223F21FF00F992CA /* logout.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA6AA55223F21FF00F992CA /* logout.jpeg */; };
 		AEA6AA58223F246C00F992CA /* facebookconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA6AA57223F246C00F992CA /* facebookconnect.png */; };
+		AEA9697922639D4700A1651E /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9697822639D4700A1651E /* Wallpaper.swift */; };
+		AEA9697D22639FEE00A1651E /* carlane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA9697C22639FEE00A1651E /* carlane.jpg */; };
+		AEA9697F2263A2B100A1651E /* lane.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA9697E2263A2B100A1651E /* lane.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +72,9 @@
 		AE4CED03223DF718000F13B8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AEA6AA55223F21FF00F992CA /* logout.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logout.jpeg; sourceTree = "<group>"; };
 		AEA6AA57223F246C00F992CA /* facebookconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookconnect.png; sourceTree = "<group>"; };
+		AEA9697822639D4700A1651E /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
+		AEA9697C22639FEE00A1651E /* carlane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = carlane.jpg; path = ../../../../../Downloads/carlane.jpg; sourceTree = "<group>"; };
+		AEA9697E2263A2B100A1651E /* lane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lane.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 				AE4CECEA223DE187000F13B8 /* AppDelegate.swift */,
 				AE24D47D2262682700063BB0 /* UserData.swift */,
 				AE24D48E226275E000063BB0 /* UniqueCell.swift */,
+				AEA9697822639D4700A1651E /* Wallpaper.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -159,9 +166,14 @@
 		AE4CECFD223DE500000F13B8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				9D7442BB22639F0D0021BFC1 /* menubutton.png */,
 				9D7442B722639A300021BFC1 /* viewbackground.png */,
 				9D7442B5226399360021BFC1 /* titlebackground.png */,
+=======
+				AEA9697E2263A2B100A1651E /* lane.png */,
+				AEA9697C22639FEE00A1651E /* carlane.jpg */,
+>>>>>>> 08fcdbbebb5c9555f710dc1551b210c399ec7fda
 				9DA8227D2263886C00CFCF39 /* bigtire.png */,
 				9DA8227E2263886C00CFCF39 /* bluecar.png */,
 				9DA8227B2263886C00CFCF39 /* greencar.png */,
@@ -253,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA9697D22639FEE00A1651E /* carlane.jpg in Resources */,
 				9DA822872263886C00CFCF39 /* medtire.png in Resources */,
 				9DA822842263886C00CFCF39 /* bigtire.png in Resources */,
 				9D7442BC22639F0D0021BFC1 /* menubutton.png in Resources */,
@@ -265,6 +278,7 @@
 				9D7442B6226399360021BFC1 /* titlebackground.png in Resources */,
 				AEA6AA56223F21FF00F992CA /* logout.jpeg in Resources */,
 				9DA822822263886C00CFCF39 /* greencar.png in Resources */,
+				AEA9697F2263A2B100A1651E /* lane.png in Resources */,
 				AE4CECF2223DE189000F13B8 /* Assets.xcassets in Resources */,
 				9D7442B822639A300021BFC1 /* viewbackground.png in Resources */,
 				AE4CECF0223DE187000F13B8 /* Main.storyboard in Resources */,
@@ -282,6 +296,7 @@
 				9D7442B422638ED70021BFC1 /* AboutUsViewController.swift in Sources */,
 				AE4CECED223DE187000F13B8 /* ViewController.swift in Sources */,
 				AE4CECEB223DE187000F13B8 /* AppDelegate.swift in Sources */,
+				AEA9697922639D4700A1651E /* Wallpaper.swift in Sources */,
 				AE4CED02223DF704000F13B8 /* CustomizeViewController.swift in Sources */,
 				AE24D47E2262682700063BB0 /* UserData.swift in Sources */,
 				AE4CED04223DF718000F13B8 /* SettingsViewController.swift in Sources */,

@@ -13,6 +13,7 @@ class SettingsViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setSecondaryWallpaper()
 
         // Do any additional setup after loading the view.
     }
