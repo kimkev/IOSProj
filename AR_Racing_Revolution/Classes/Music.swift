@@ -20,8 +20,6 @@ class MusicHelper {
             audioPlayer!.prepareToPlay()
             audioPlayer!.volume = 0.2
             
-            try? AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
-            try? AVAudioSession.sharedInstance().setActive(true)
             
             audioPlayer!.play()
         }
