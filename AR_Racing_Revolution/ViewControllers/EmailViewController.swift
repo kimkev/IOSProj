@@ -11,7 +11,7 @@ import UIKit
 import Foundation
 import MessageUI
 
-class EmailViewController: UIViewController, MFMailComposeViewControllerDelegate {
+class EmailViewController: UIViewController, MFMailComposeViewControllerDelegate, UITextFieldDelegate {
     
     // email label field
     @IBOutlet var tfEmail : UITextField!
@@ -40,17 +40,18 @@ class EmailViewController: UIViewController, MFMailComposeViewControllerDelegate
     @IBAction func sendEmail(sender : Any){
         //        let mailComposeVC = configureMailController()
         
-        if let mailComposeVC : MFMailComposeViewController = MFMailComposeViewController() {
-            mailComposeVC.mailComposeDelegate = self
-            mailComposeVC.setToRecipients([tfEmail.text!])
-            mailComposeVC.setSubject(tfTitle.text!)
-            mailComposeVC.setMessageBody(tvBody.text!, isHTML: false)
-            self.present(mailComposeVC, animated: true, completion: nil)
-        }
-        else{
-            
+        if !MFMailComposeViewController.canSendMail() {
+            print("Mail services are not available")
             showMailError()
+            return
         }
+        
+        let mailComposeVC = MFMailComposeViewController()
+            mailComposeVC.mailComposeDelegate = self
+            mailComposeVC.setToRecipients(["k6yk07@yopmail.com"])
+            mailComposeVC.setSubject("title")
+            mailComposeVC.setMessageBody("body", isHTML: false)
+            self.present(mailComposeVC, animated: true, completion: nil)
     }
     
     
