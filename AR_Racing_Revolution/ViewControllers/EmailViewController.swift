@@ -42,16 +42,16 @@ class EmailViewController: UIViewController, MFMailComposeViewControllerDelegate
         
         if !MFMailComposeViewController.canSendMail() {
             print("Mail services are not available")
-            showMailError()
+            self.showMailError()
             return
         }
         
         let mailComposeVC = MFMailComposeViewController()
             mailComposeVC.mailComposeDelegate = self
-            mailComposeVC.setToRecipients(["k6yk07@yopmail.com"])
-            mailComposeVC.setSubject("title")
-            mailComposeVC.setMessageBody("body", isHTML: false)
-            self.present(mailComposeVC, animated: true, completion: nil)
+            mailComposeVC.setToRecipients(["k6yk07@gmail.com"])
+            mailComposeVC.setSubject(tfTitle.text!)
+            mailComposeVC.setMessageBody(tvBody.text!, isHTML: false)
+            MFMailComposeViewController().present(mailComposeVC, animated: true, completion: nil)
     }
     
     
