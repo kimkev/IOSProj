@@ -161,9 +161,12 @@
                                 <rect key="frame" x="117" y="584" width="42" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="2kR-sK-2vo">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2kR-sK-2vo">
                                 <rect key="frame" x="226" y="138" width="107" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="volumeDidChangeWithSender:" destination="XRG-Sz-Deg" eventType="valueChanged" id="0Fa-q0-GR3"/>
+                                </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nv0-Ph-lBL">
                                 <rect key="frame" x="214" y="434" width="131" height="50"/>
@@ -186,6 +189,9 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kYc-IH-4ev">
                                 <rect key="frame" x="256" y="255" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="musicSwitchedWithSender:" destination="XRG-Sz-Deg" eventType="valueChanged" id="VQ7-qP-O1C"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hints" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCx-ro-ujr">
                                 <rect key="frame" x="45" y="314" width="70" height="40"/>
@@ -221,6 +227,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="kWF-MB-iFC"/>
                     </view>
+                    <connections>
+                        <outlet property="facebook" destination="nv0-Ph-lBL" id="Ofc-ka-6lF"/>
+                        <outlet property="hints" destination="2ET-LV-tl4" id="R2P-N6-7q6"/>
+                        <outlet property="music" destination="kYc-IH-4ev" id="eym-wW-rFH"/>
+                        <outlet property="notifications" destination="ilZ-1u-y7B" id="TPR-RR-G0k"/>
+                        <outlet property="sound" destination="U7l-Vc-n3l" id="Pla-Mz-rRN"/>
+                        <outlet property="volume" destination="2kR-sK-2vo" id="9Ou-vs-y8q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ijP-Jj-BwG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="bUB-Bu-FGh" userLabel="Exit" sceneMemberID="exit"/>

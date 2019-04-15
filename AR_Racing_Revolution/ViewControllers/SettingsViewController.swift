@@ -11,11 +11,34 @@ import UIKit
 
 class SettingsViewController: ViewController {
 
+    @IBOutlet var volume : UISlider!
+    @IBOutlet var sound : UISwitch!
+    @IBOutlet var music : UISwitch!
+    @IBOutlet var hints : UISwitch!
+    @IBOutlet var notifications : UISwitch!
+    @IBOutlet var facebook : UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setSecondaryWallpaper()
 
         // Do any additional setup after loading the view.
+    }
+    
+    // method for volume control of the app
+    @IBAction func volumeDidChange(sender :UISlider){
+        MusicHelper.sharedHelper.audioPlayer?.volume = volume.value
+    }
+    
+    // method for turning sound on/off
+    @IBAction func musicSwitched(sender :UISwitch){
+        if (sound.isOn){
+            MusicHelper.sharedHelper.audioPlayer?.volume = volume.value
+        }
+        else{
+            MusicHelper.sharedHelper.audioPlayer?.volume = 0
+        }
     }
     
 
