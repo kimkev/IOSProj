@@ -43,9 +43,12 @@
 		AE4CED02223DF704000F13B8 /* CustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CED01223DF704000F13B8 /* CustomizeViewController.swift */; };
 		AE4CED04223DF718000F13B8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CED03223DF718000F13B8 /* SettingsViewController.swift */; };
 		AEA6AA56223F21FF00F992CA /* logout.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA6AA55223F21FF00F992CA /* logout.jpeg */; };
-		AEA6AA58223F246C00F992CA /* facebookconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA6AA57223F246C00F992CA /* facebookconnect.png */; };
 		AEA9697922639D4700A1651E /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9697822639D4700A1651E /* Wallpaper.swift */; };
 		AEA9697F2263A2B100A1651E /* lane.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA9697E2263A2B100A1651E /* lane.png */; };
+		AEA96981226409BD00A1651E /* buttonclick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEA96980226409BD00A1651E /* buttonclick.mp3 */; };
+		AEA969852264180400A1651E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA969822264180300A1651E /* FBSDKCoreKit.framework */; };
+		AEA969862264180400A1651E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA969832264180300A1651E /* Bolts.framework */; };
+		AEA969872264180400A1651E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA969842264180300A1651E /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,9 +90,13 @@
 		AE4CED01223DF704000F13B8 /* CustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeViewController.swift; sourceTree = "<group>"; };
 		AE4CED03223DF718000F13B8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AEA6AA55223F21FF00F992CA /* logout.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logout.jpeg; sourceTree = "<group>"; };
-		AEA6AA57223F246C00F992CA /* facebookconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookconnect.png; sourceTree = "<group>"; };
 		AEA9697822639D4700A1651E /* Wallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
 		AEA9697E2263A2B100A1651E /* lane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lane.png; sourceTree = "<group>"; };
+		AEA96980226409BD00A1651E /* buttonclick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonclick.mp3; sourceTree = "<group>"; };
+		AEA969822264180300A1651E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AEA969832264180300A1651E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AEA969842264180300A1651E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AEA9698822641AC500A1651E /* AR_Racing_Revolution-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AR_Racing_Revolution-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +106,12 @@
 			files = (
 				AE1E6A632263E9FF005C7BD5 /* Foundation.framework in Frameworks */,
 				AE1E6A612263E9E5005C7BD5 /* MessageUI.framework in Frameworks */,
+				AEA969872264180400A1651E /* FBSDKLoginKit.framework in Frameworks */,
 				9DA2267E2263C5CE00BFBA58 /* AVFoundation.framework in Frameworks */,
 				AE24D4872262697600063BB0 /* WebKit.framework in Frameworks */,
 				AE24D4842262697000063BB0 /* libsqlite3.0.tbd in Frameworks */,
+				AEA969852264180400A1651E /* FBSDKCoreKit.framework in Frameworks */,
+				AEA969862264180400A1651E /* Bolts.framework in Frameworks */,
 				AE24D4852262697000063BB0 /* libsqlite3.tbd in Frameworks */,
 				AE24D4812262696A00063BB0 /* QuartzCore.framework in Frameworks */,
 			);
@@ -125,6 +135,9 @@
 		AE24D47F2262696900063BB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEA969832264180300A1651E /* Bolts.framework */,
+				AEA969822264180300A1651E /* FBSDKCoreKit.framework */,
+				AEA969842264180300A1651E /* FBSDKLoginKit.framework */,
 				AE1E6A622263E9FF005C7BD5 /* Foundation.framework */,
 				AE1E6A602263E9E5005C7BD5 /* MessageUI.framework */,
 				9DA2267D2263C5CE00BFBA58 /* AVFoundation.framework */,
@@ -172,6 +185,7 @@
 				AE4CECFC223DE379000F13B8 /* StoryBoards */,
 				AE4CECF1223DE189000F13B8 /* Assets.xcassets */,
 				AE4CECF6223DE189000F13B8 /* Info.plist */,
+				AEA9698822641AC500A1651E /* AR_Racing_Revolution-Bridging-Header.h */,
 			);
 			path = AR_Racing_Revolution;
 			sourceTree = "<group>";
@@ -201,7 +215,6 @@
 				9DA8227F2263886C00CFCF39 /* smalltire.png */,
 				9DA8227C2263886C00CFCF39 /* yellowcar.png */,
 				AE24D493226279C900063BB0 /* WoodenBackground.png */,
-				AEA6AA57223F246C00F992CA /* facebookconnect.png */,
 				AEA6AA55223F21FF00F992CA /* logout.jpeg */,
 			);
 			path = Images;
@@ -210,6 +223,7 @@
 		AE4CECFE223DE505000F13B8 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				AEA96980226409BD00A1651E /* buttonclick.mp3 */,
 				9DA2267F2263C62900BFBA58 /* ParadiseWarfare.mp3 */,
 			);
 			path = Sounds;
@@ -261,6 +275,7 @@
 				TargetAttributes = {
 					AE4CECE6223DE187000F13B8 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -309,9 +324,9 @@
 				9DA822822263886C00CFCF39 /* greencar.png in Resources */,
 				AEA9697F2263A2B100A1651E /* lane.png in Resources */,
 				AE4CECF2223DE189000F13B8 /* Assets.xcassets in Resources */,
+				AEA96981226409BD00A1651E /* buttonclick.mp3 in Resources */,
 				9D7442B822639A300021BFC1 /* viewbackground.png in Resources */,
 				AE4CECF0223DE187000F13B8 /* Main.storyboard in Resources */,
-				AEA6AA58223F246C00F992CA /* facebookconnect.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,14 +494,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AR_Racing_Revolution/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.prog31632.AR-Racing-Revolution";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AR_Racing_Revolution/AR_Racing_Revolution-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -496,14 +519,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AR_Racing_Revolution/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.prog31632.AR-Racing-Revolution";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AR_Racing_Revolution/AR_Racing_Revolution-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

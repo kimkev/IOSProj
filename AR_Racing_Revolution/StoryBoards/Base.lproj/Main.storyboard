@@ -30,6 +30,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="btnclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KIe-To-rWe"/>
                                     <segue destination="82T-B3-xCB" kind="presentation" id="c4o-Q0-hZ9"/>
                                 </connections>
                             </button>
@@ -41,6 +42,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="btnclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pws-TM-78E"/>
                                     <segue destination="etK-g6-hGw" kind="presentation" id="WrH-XH-07l"/>
                                 </connections>
                             </button>
@@ -52,6 +54,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="btnclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Hy-YF-du0"/>
                                     <segue destination="c9r-A7-xgc" kind="presentation" id="9kv-An-9zr"/>
                                 </connections>
                             </button>
@@ -63,6 +66,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="btnclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lg8-pv-Fzm"/>
                                     <segue destination="IAp-lj-ge7" kind="presentation" id="4bk-N4-lkf"/>
                                 </connections>
                             </button>
@@ -74,6 +78,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="btnclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SXX-e0-r5O"/>
                                     <segue destination="XRG-Sz-Deg" kind="presentation" id="v5f-9V-DMA"/>
                                 </connections>
                             </button>
@@ -85,6 +90,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="btnclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="496-Vw-4N7"/>
                                     <segue destination="w0P-6G-jCh" kind="presentation" id="apT-7L-L9U"/>
                                 </connections>
                             </button>
@@ -143,24 +149,6 @@
                                 <color key="textColor" red="0.19623988989999999" green="0.15344150249999999" blue="0.74020401550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ug2-pH-pwE">
-                                <rect key="frame" x="43" y="444" width="131" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
-                                <color key="textColor" red="0.19623988989999999" green="0.15344150249999999" blue="0.74020401550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Logout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dI-f7-iYM">
-                                <rect key="frame" x="167" y="584" width="70" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" red="0.19623988989999999" green="0.15344150249999999" blue="0.74020401550000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logout.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Vgp-YD-eqk">
-                                <rect key="frame" x="117" y="584" width="42" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2kR-sK-2vo">
                                 <rect key="frame" x="226" y="138" width="107" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -168,16 +156,12 @@
                                     <action selector="volumeDidChangeWithSender:" destination="XRG-Sz-Deg" eventType="valueChanged" id="0Fa-q0-GR3"/>
                                 </connections>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nv0-Ph-lBL">
-                                <rect key="frame" x="214" y="434" width="131" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Reset" image="facebookconnect.png">
-                                    <color key="titleColor" red="1" green="0.20679030879999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U7l-Vc-n3l">
                                 <rect key="frame" x="256" y="198" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="soundSwitchWithSender:" destination="XRG-Sz-Deg" eventType="valueChanged" id="EKw-Oa-IXK"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnM-nP-r09">
                                 <rect key="frame" x="45" y="250" width="70" height="40"/>
@@ -215,20 +199,11 @@
                                 <rect key="frame" x="256" y="378" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oj-pt-c57">
-                                <rect key="frame" x="43" y="515" width="102" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="29"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleColor" red="1" green="0.20679030879999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="kWF-MB-iFC"/>
                     </view>
                     <connections>
-                        <outlet property="facebook" destination="nv0-Ph-lBL" id="Ofc-ka-6lF"/>
                         <outlet property="hints" destination="2ET-LV-tl4" id="R2P-N6-7q6"/>
                         <outlet property="music" destination="kYc-IH-4ev" id="eym-wW-rFH"/>
                         <outlet property="notifications" destination="ilZ-1u-y7B" id="TPR-RR-G0k"/>
@@ -646,9 +621,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="facebookconnect.png" width="800" height="215"/>
         <image name="greencar.png" width="715" height="238"/>
-        <image name="logout.jpeg" width="210" height="240"/>
         <image name="menubutton.png" width="853" height="371"/>
         <image name="smalltire.png" width="715" height="238"/>
         <image name="titlebackground.png" width="750" height="1334"/>

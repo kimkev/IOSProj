@@ -60,7 +60,7 @@ class CustomizeViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setSecondaryWallpaper()
+        //self.setSecondaryWallpaper()
 
         sgTire.setBackgroundImage(UIImage(named: "menubutton"), for: .normal, barMetrics: .default)
         sgCar.setBackgroundImage(UIImage(named: "menubutton"), for: .normal, barMetrics: .default)

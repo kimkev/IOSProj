@@ -8,6 +8,7 @@
 // By: Kevin Kim
 
 import UIKit
+import AVFoundation
 
 class SettingsViewController: ViewController {
 
@@ -18,12 +19,31 @@ class SettingsViewController: ViewController {
     @IBOutlet var notifications : UISwitch!
     @IBOutlet var facebook : UIButton!
     
+    //var audioPlayer: AVAudioPlayer?
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.setSecondaryWallpaper()
-
-        // Do any additional setup after loading the view.
+    func btnSound (sender: Any) {
+//        let clickSound = URL(fileURLWithPath: Bundle.main.path(forResource: "buttonclick", ofType: "mp3")!)
+//
+//        do {
+//            audioPlayer = try AVAudioPlayer(contentsOf: clickSound as URL)
+//            audioPlayer!.numberOfLoops = 1
+//            audioPlayer!.prepareToPlay()
+//            audioPlayer!.volume = 1
+//
+//            audioPlayer!.play()
+//        } catch {
+//            print("Cannot play the file")
+//        }
+    }
+    
+    @IBAction func soundSwitch(sender: UISwitch) {
+        if (sound.isOn){
+            MusicHelper.sharedHelper.clickPlayer?.volume = 0.7
+        }
+            
+        else {
+            MusicHelper.sharedHelper.clickPlayer?.volume = 0
+        }
     }
     
     // method for volume control of the app
@@ -33,7 +53,7 @@ class SettingsViewController: ViewController {
     
     // method for turning sound on/off
     @IBAction func musicSwitched(sender :UISwitch){
-        if (sound.isOn){
+        if (music.isOn){
             MusicHelper.sharedHelper.audioPlayer?.volume = volume.value
         }
         else{
@@ -41,15 +61,15 @@ class SettingsViewController: ViewController {
         }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let loginButton = FBSDKLoginButton()
+        
+        loginButton.frame = CGRect(x: 0, y: 0, width: 200, height: 40)
+        let newCenter = CGPoint(x: 190, y: 450)
+        loginButton.center = newCenter
+        
+        self.view.addSubview(loginButton)
     }
-    */
-
+    
 }

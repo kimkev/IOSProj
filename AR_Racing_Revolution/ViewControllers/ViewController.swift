@@ -12,22 +12,17 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-    var player : AVAudioPlayer?
+    var clickPlayer: AVAudioPlayer?
+    
+    @IBAction func btnclick(_ sender: Any) {
+        MusicHelper.sharedHelper.playButtonSound()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setMainWallpaper()
+        //self.setMainWallpaper()
         
-        
-        
-        
-        
-//        let backgroundMusic = Bundle.main.path(forResource: "ParadiseWarfare", ofType: "mp3")
-//        let url = URL(fileURLWithPath: backgroundMusic!)
-//        soundPlayer = try! AVAudioPlayer.init(contentsOf: url)
-//        soundPlayer?.currentTime = 0
-//        soundPlayer?.numberOfLoops = -1
-//        soundPlayer?.play()
+
     }
 
     @IBAction func unwindToHomeVC(sender: UIStoryboardSegue){
